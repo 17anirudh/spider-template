@@ -8,7 +8,7 @@ import {
     InfoIcon,
     FingerprintSimpleIcon 
 } from "@phosphor-icons/react";
-import type { Path } from "@schema/ui";
+import type { Path } from "@components/data";
 import {
   Dialog,
   DialogContent,
@@ -17,7 +17,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import Link from "next/link";
-import Pic from "./image/Pic";
+import Pic from "@components/image/Pic";
 
 const routes: Path = {
     "home": {

@@ -2,7 +2,11 @@ import Pic from "@/components/image/Pic";
 
 export default function() { 
     return (
-        <div role="heading" className="absolute inset-0 bg-foreground">
+        <div 
+            aria-label="Loading"
+            role="heading" 
+            className="absolute inset-0 bg-foreground"
+        >
             <Pic 
                 id="loading"
                 src="/kirby.gif"
@@ -12,5 +16,5 @@ export default function() {
                 unoptimized
             />
         </div>
-    )
+    );
 }

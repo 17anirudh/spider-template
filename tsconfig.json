@@ -18,11 +18,13 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@schema/*": ["./types/*"],
+      "@lib/*": ["./lib/*"],
       "@hooks/*": ["./hooks/*"],
-      "@components/*": ["./components/*"]
+      "@components/*": ["./components/*"],
+      "@ui/*": ["lib/ui.ts"]
     }
   },
   "include": [
