@@ -2,14 +2,14 @@
 
 import type { ControllerFieldState, ControllerRenderProps } from "react-hook-form";
 import { Input } from "../ui/input";
-import type { F } from "./hook-form";
+import type { Schema } from "./data";
 import { Button } from "../ui/button";
 import { useRef, useState } from "react";
 
 type Props = {
     field: ControllerRenderProps<Record<string, unknown>, string>
     fieldState: ControllerFieldState
-    point: F
+    point: Schema
     identifier: string
 }
 

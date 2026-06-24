@@ -20,20 +20,16 @@ import Link from "next/link";
 import Pic from "@components/image/Pic";
 
 const routes: Path = {
+    "display": {
+        label: "Display",
+        path: "/display",
+        icon: HouseLineIcon, // Defaulting icon
+    },
+
     "home": {
         label: "Home",
         path: "/",
         icon: HouseLineIcon,
-    },
-    "about": {
-        label: "About",
-        path: "/about",
-        icon: InfoIcon,
-    },
-    "auth": {
-        label: "Auth",
-        path: "/auth",
-        icon: FingerprintSimpleIcon,
     }
 }
 

@@ -13,7 +13,7 @@ type InputType =
   | "select"
   | "file";
 
-export type F = {
+export type Schema = {
   name: string;
   label: string;
   schema: ZodType;
@@ -30,5 +30,5 @@ export type DeafultProps = {
   identifier: string;
   key?: Key;
   onSubmit: (data: any) => Promise<void>;
-  fields: F[];
+  fields: Schema[];
 };

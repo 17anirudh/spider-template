@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "spider",
+      "name": "starter-template",
       "dependencies": {
         "@base-ui/react": "^1.6.0",
         "@hookform/resolvers": "^5.4.0",
