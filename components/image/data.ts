@@ -1,4 +1,4 @@
-import { type ImageProps } from "next/image";
+import type { ImageProps } from "next/image";
 
 type Look =
     | "default"       // 16:9   – cards, editorial
@@ -33,7 +33,7 @@ const styleMap: Record<Look, StyleEntry> = {
         imageStyle: "object-cover",
     },
     avatar: {
-        containerStyle: "relative aspect-square rounded-full overflow-hidden shrink-0",
+        containerStyle: "relative w-20 aspect-square rounded-full overflow-hidden shrink-0",
         imageStyle: "object-cover",
     },
     banner: {

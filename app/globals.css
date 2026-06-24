@@ -158,6 +158,6 @@
     @apply border p-3;
   }
   main, section {
-    @apply w-full flex flex-col items-center justify-center gap-7 p-12 min-h-screen;
+    @apply w-full flex flex-col items-center justify-center gap-4 p-4 min-h-screen;
   }
 }
